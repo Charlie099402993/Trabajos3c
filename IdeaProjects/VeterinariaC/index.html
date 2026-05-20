@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>VeterinariaC</title>
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-icons-1.13.1/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        <i class="bi bi-heart-pulse-fill text-danger me-2"></i>
+        VeterinariaC
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+<main class="container mt-4">
+  <section id="inicio">
+    <h2>Bienvenidos a la veterinaria</h2>
+    <p>Ofrecemos la mejor atención médica y estética para tus mascotas. Contamos con los mejores profesionales apasionados por los animales.</p>
+  </section>
+
+  <hr>
+
+  <section id="servicios">
+    <h2>Nuestros servicios</h2>
+    <article>
+      <h3>Consultas generales</h3>
+      <p>Revisión completa para asegurar la salud de tus mascotas.</p>
+    </article>
+    <article>
+      <h3>Vacunación y desparasitación</h3>
+      <p>Mantén al día el esquema de vacunación de tus mascotas.</p>
+    </article>
+    <article>
+      <h3>Peluquería canina y felina</h3>
+      <p>Baños, cortes de pelo especiales y limpieza.</p>
+    </article>
+  </section>
+
+  <section id="contacto">
+    <h2>Agenda una cita</h2>
+    <form action="#" method="POST" class="bg-white p-4 border rounded shadow-sm">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Tu Nombre:</label>
+        <input type="text" id="nombre" name="nombre" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="mascota" class="form-label">Nombre de tu mascota:</label>
+        <input type="text" id="mascota" name="mascota" class="form-control" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Motivo de la consulta:</label>
+        <textarea id="mensaje" name="mensaje" class="form-control" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-success">Enviar Consulta</button>
+    </form>
+  </section>
+  <hr>
+</main>
+
+<footer class="text-center py-4">
+  <p>&copy; 2026 VeterinariaC - Todos los derechos reservados</p>
+</footer>
+
+<script src="assets/js/bootstrap.js"></script>
+</body>
+</html>

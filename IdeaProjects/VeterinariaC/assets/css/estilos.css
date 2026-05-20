@@ -1,0 +1,17 @@
+body{
+
+    background:#087990;
+}
+p{
+    color : #20c997;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* 2. Apply it to your image */
+img {
+    width: 300px;
+    animation: fadeIn 2s ease-in forwards;
+}
