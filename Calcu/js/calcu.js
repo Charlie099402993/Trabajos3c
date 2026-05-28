@@ -26,7 +26,7 @@ let resultado_p=document.getElementById("resultado");
 resultado_p.innerText="El resultado es:"+resultado;
 }
 
-document.getElementById("sumar").addEventListener("click", resta);
+document.getElementById("restar").addEventListener("click", resta);
 
 //multiplicar
 function multiplicacion(){
@@ -41,7 +41,7 @@ let resultado_p=document.getElementById("resultado");
 resultado_p.innerText="El resultado es:"+resultado;
 }
 
-document.getElementById("sumar").addEventListener("click", multiplicacion);
+document.getElementById("multiplicar").addEventListener("click", multiplicacion);
 
 
 //Dividir
@@ -63,7 +63,7 @@ function dividir(){
     resultado_p.innerText = "El resultado es: " + resultado;
 }
 
-document.getElementById("sumar").addEventListener("click", dividir);
+document.getElementById("dividir").addEventListener("click", dividir);
 
 
 
